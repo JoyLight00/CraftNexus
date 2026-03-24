@@ -43,4 +43,4 @@ jobs:
         run: soroban contract build
 
       - name: Test Contract
-        run: soroban contract test
+        run: cargo test
